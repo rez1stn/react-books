@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+ position: relative;
+ background-image: url('img/header-bg.jpg');
+ background-repeat: no-repeat;
+ 
+ height: 32vh;
+ background-size: 100%;
+ background-position:25%, 0%, 50%, 100%, 125%; 
+}
+@media (min-width: 319.98px) { 
+  .App-header {
+    position: relative;
+    background-image: url('img/header-bg.jpg');
+    background-repeat: no-repeat;
+    
+    height: 25vh;
+    background-size: 100%;
+    background-position:top;
+   }
+  
+  
+}
+
+@media (min-width: 567.98px) { 
+  .App-header {
+    position: relative;
+    background-image: url('img/header-bg.jpg');
+    background-repeat: no-repeat;
+    
+    height: 32vh;
+    background-size: 100%;
+    background-position:25%, 0%, 50%, 100%, 125%;
+   }
+  
+ }
+
+
+
+

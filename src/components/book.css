@@ -1,0 +1,13 @@
+.container{
+  width: 80vw;
+  height: 55vh;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 5vh;
+}
+.img{
+  width: 30%;
+}
+.content{
+  width: 70%;
+}
